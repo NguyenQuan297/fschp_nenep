@@ -30,7 +30,7 @@ class Settings:
             minimum=1,
         )
         self.override_password_hash = os.getenv("FSCHP_OVERRIDE_PASSWORD_HASH", "")
-        self.db_path = Path(os.getenv("FSCHP_DB_PATH", str(PROJECT_ROOT / "nenep.db")))
+        self.db_path = Path(os.getenv("FSCHP_DB_PATH", self._default_db_path()))
         self.frontend_dir = Path(os.getenv("FSCHP_FRONTEND_DIR", str(FRONTEND_DIR)))
         self.cors_origins = self._csv("FSCHP_CORS_ORIGINS", default=["http://localhost:8000"])
         self.cookie_name = os.getenv("FSCHP_COOKIE_NAME", "fschp_access_token")
@@ -80,6 +80,12 @@ class Settings:
         if raw_value is None:
             return default
         return raw_value.strip().lower() in {"1", "true", "yes", "on"}
+
+    @staticmethod
+    def _default_db_path() -> str:
+        if os.getenv("VERCEL"):
+            return "/tmp/nenep.db"
+        return str(PROJECT_ROOT / "nenep.db")
 
     def _bootstrap_users(self) -> list[dict[str, str]]:
         users: list[dict[str, str]] = []
