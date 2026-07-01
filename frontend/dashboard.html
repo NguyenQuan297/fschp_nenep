@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dashboard Thi Ä‘ua Ná» náº¿p â€” FSCHP</title>
+<title>Dashboard Thi đua Nề nếp — FSCHP</title>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <style>
@@ -63,13 +63,13 @@ body {
   background: #94A3B8;
 }
 
-/* â”€â”€ LAYOUT â”€â”€ */
+/* ── LAYOUT ── */
 .layout {
   min-height: 100vh;
   display: flex;
 }
 
-/* â”€â”€ SIDEBAR â”€â”€ */
+/* ── SIDEBAR ── */
 .sidebar {
   position: fixed;
   left: 0;
@@ -332,7 +332,7 @@ body {
   color: #EF4444;
 }
 
-/* â”€â”€ MAIN CONTENT â”€â”€ */
+/* ── MAIN CONTENT ── */
 .main-content {
   margin-left: 280px;
   width: calc(100% - 280px);
@@ -473,7 +473,7 @@ body {
   vertical-align: middle;
 }
 
-/* â”€â”€ FILTERS BAR â”€â”€ */
+/* ── FILTERS BAR ── */
 .filters {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
@@ -512,7 +512,7 @@ body {
   box-shadow: 0 0 0 2px var(--fpt-orange-light);
 }
 
-/* â”€â”€ KPIS â”€â”€ */
+/* ── KPIS ── */
 .kpi-row {
   display: grid;
   grid-template-columns: 280px 1fr;
@@ -641,7 +641,7 @@ body {
   white-space: nowrap;
 }
 
-/* â”€â”€ PANELS & CHARTS â”€â”€ */
+/* ── PANELS & CHARTS ── */
 .grid-2 {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
@@ -694,7 +694,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* â”€â”€ TABS (Sub contents) â”€â”€ */
+/* ── TABS (Sub contents) ── */
 .tab-content {
   display: none;
 }
@@ -716,7 +716,7 @@ body {
   }
 }
 
-/* â”€â”€ TABLES â”€â”€ */
+/* ── TABLES ── */
 .table-wrap {
   max-height: 520px;
   overflow: auto;
@@ -818,7 +818,7 @@ tbody tr:hover {
   box-shadow: 2px 0 5px rgba(0,0,0,0.02);
 }
 
-/* â”€â”€ ADMIN/RECORD TABS â”€â”€ */
+/* ── ADMIN/RECORD TABS ── */
 .admin-panel {
   background: var(--card);
   border: 1px solid var(--border);
@@ -1006,7 +1006,7 @@ tbody tr:hover {
 .badge-ok { background: var(--fpt-green-light); color: var(--fpt-green); }
 .badge-err { background: var(--red-light); color: var(--red); }
 
-/* â”€â”€ AUDIT LOGS â”€â”€ */
+/* ── AUDIT LOGS ── */
 .audit-summary {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1044,7 +1044,7 @@ tbody tr:hover {
 .audit-replace { background: var(--fpt-orange-light); color: var(--fpt-orange); }
 .audit-delete { background: var(--red-light); color: var(--red); }
 
-/* â”€â”€ USERS TAB â”€â”€ */
+/* ── USERS TAB ── */
 .user-toolbar {
   display: flex;
   justify-content: space-between;
@@ -1108,7 +1108,7 @@ tbody tr:hover {
   margin-right: 10px;
 }
 
-/* â”€â”€ SETTINGS GRID â”€â”€ */
+/* ── SETTINGS GRID ── */
 .setting-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(240px, 1fr));
@@ -1138,7 +1138,7 @@ tbody tr:hover {
   line-height: 1.5;
 }
 
-/* â”€â”€ CUSTOM MODAL â”€â”€ */
+/* ── CUSTOM MODAL ── */
 .modal-backdrop {
   position: fixed;
   inset: 0;
@@ -1230,7 +1230,7 @@ tbody tr:hover {
   min-width: 90px;
 }
 
-/* â”€â”€ LOADING OVERLAY â”€â”€ */
+/* ── LOADING OVERLAY ── */
 .loading-overlay {
   position: fixed;
   inset: 0;
@@ -1260,7 +1260,7 @@ tbody tr:hover {
   color: #fff;
 }
 
-/* â”€â”€ ALERTS â”€â”€ */
+/* ── ALERTS ── */
 .alert {
   padding: 12px 20px;
   border-radius: 8px;
@@ -1285,7 +1285,7 @@ tbody tr:hover {
   color: #94A3B8;
 }
 
-/* â”€â”€ MOBILE HEADER & DRAWER BACKDROP â”€â”€ */
+/* ── MOBILE HEADER & DRAWER BACKDROP ── */
 .mobile-header {
   display: none;
   align-items: center;
@@ -1371,7 +1371,7 @@ tbody tr:hover {
   pointer-events: auto;
 }
 
-/* â”€â”€ SKELETONS â”€â”€ */
+/* ── SKELETONS ── */
 .skeleton {
   background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
   background-size: 200% 100%;
@@ -1388,7 +1388,7 @@ tbody tr:hover {
   100% { background-position: -200% 0; }
 }
 
-/* â”€â”€ RESPONSIVE â”€â”€ */
+/* ── RESPONSIVE ── */
 @media (max-width: 1200px) {
   .kpi-row { grid-template-columns: 1fr; }
   .kpis { grid-template-columns: repeat(4, 1fr); }
@@ -1462,14 +1462,14 @@ tbody tr:hover {
   <div class="modal-box">
     <div class="modal-head">
       <div class="modal-icon" id="modalIcon">!</div>
-      <div class="modal-title" id="modalTitle">XÃ¡c nháº­n</div>
+      <div class="modal-title" id="modalTitle">Xác nhận</div>
     </div>
     <div class="modal-body" id="modalBody"></div>
     <div class="modal-actions" id="modalActions"></div>
   </div>
 </div>
 
-<div class="loading-overlay" id="loadingOverlay"><div class="spinner"></div><div class="loading-text" id="loadingText">Äang táº£iâ€¦</div></div>
+<div class="loading-overlay" id="loadingOverlay"><div class="spinner"></div><div class="loading-text" id="loadingText">Đang tải…</div></div>
 
 <div class="layout">
   <aside class="sidebar">
@@ -1478,17 +1478,17 @@ tbody tr:hover {
         <span class="b-blue">F</span><span class="b-orange">P</span><span class="b-green">T</span>
       </div>
       <div class="brand-school">FPT SCHOOLS</div>
-      <div class="brand-campus">FPT SCHOOL<br>Háº£i PhÃ²ng</div>
-      <div class="brand-status"><span></span>Ná» náº¿p Platform</div>
+      <div class="brand-campus">FPT SCHOOL<br>Hải Phòng</div>
+      <div class="brand-status"><span></span>Nề nếp Platform</div>
     </div>
 
-    <div class="nav-section-title">Äiá»u hÆ°á»›ng</div>
+    <div class="nav-section-title">Điều hướng</div>
     <nav class="side-nav tabs" id="tabBar"></nav>
 
     <div class="sidebar-spacer"></div>
 
     <button class="side-settings" type="button" onclick="switchTab('settings')">
-      <span class="side-ico"><i class="ti ti-settings"></i></span><span>CÃ i Ä‘áº·t</span><span class="chev"><i class="ti ti-chevron-right"></i></span>
+      <span class="side-ico"><i class="ti ti-settings"></i></span><span>Cài đặt</span><span class="chev"><i class="ti ti-chevron-right"></i></span>
     </button>
 
     <div class="side-user">
@@ -1497,7 +1497,7 @@ tbody tr:hover {
         <div class="side-name" id="hName">User</div>
         <div class="side-role"><span></span><span id="hRole">role</span></div>
       </div>
-      <button class="side-logout" onclick="doLogout()" title="ÄÄƒng xuáº¥t"><i class="ti ti-logout"></i></button>
+      <button class="side-logout" onclick="doLogout()" title="Đăng xuất"><i class="ti ti-logout"></i></button>
     </div>
   </aside>
 
@@ -1523,78 +1523,78 @@ tbody tr:hover {
 
   <div class="content-head">
     <div>
-      <div class="page-kicker">FPT Schools Háº£i PhÃ²ng</div>
-      <h2 id="pageTitle">Tá»•ng quan ná» náº¿p</h2>
-      <p id="pageDesc">Theo dÃµi Ä‘iá»ƒm thi Ä‘ua, vi pháº¡m, khen thÆ°á»Ÿng vÃ  lá»‹ch sá»­ cáº­p nháº­t dá»¯ liá»‡u.</p>
+      <div class="page-kicker">FPT Schools Hải Phòng</div>
+      <h2 id="pageTitle">Tổng quan nề nếp</h2>
+      <p id="pageDesc">Theo dõi điểm thi đua, vi phạm, khen thưởng và lịch sử cập nhật dữ liệu.</p>
     </div>
     <div class="content-actions">
-      <button class="btn btn-secondary" onclick="resetFilters()"><i class="ti ti-filter-x"></i>XÃ³a lá»c</button>
+      <button class="btn btn-secondary" onclick="resetFilters()"><i class="ti ti-filter-x"></i>Xóa lọc</button>
       <button class="btn btn-primary" onclick="fetchData()"><i class="ti ti-refresh"></i>Refresh</button>
     </div>
   </div>
 
   <div id="filtersSection">
     <div class="filters">
-      <div class="filter-group"><label>ThÃ¡ng</label><select id="f_month" onchange="applyFilters()"></select></div>
-      <div class="filter-group"><label>Tuáº§n</label><select id="f_week" onchange="applyFilters()"></select></div>
-      <div class="filter-group"><label>Cáº¥p há»c</label><select id="f_level" onchange="applyFilters()"></select></div>
-      <div class="filter-group"><label>Khá»‘i</label><select id="f_grade" onchange="applyFilters()"></select></div>
-      <div class="filter-group"><label>Lá»›p</label><select id="f_className" onchange="applyFilters()"></select></div>
-      <div class="filter-group"><label>PhÃ¢n loáº¡i</label><select id="f_category" onchange="applyFilters()"></select></div>
-      <div class="filter-group"><label>Lá»—i</label><select id="f_issue" onchange="applyFilters()"></select></div>
+      <div class="filter-group"><label>Tháng</label><select id="f_month" onchange="applyFilters()"></select></div>
+      <div class="filter-group"><label>Tuần</label><select id="f_week" onchange="applyFilters()"></select></div>
+      <div class="filter-group"><label>Cấp học</label><select id="f_level" onchange="applyFilters()"></select></div>
+      <div class="filter-group"><label>Khối</label><select id="f_grade" onchange="applyFilters()"></select></div>
+      <div class="filter-group"><label>Lớp</label><select id="f_className" onchange="applyFilters()"></select></div>
+      <div class="filter-group"><label>Phân loại</label><select id="f_category" onchange="applyFilters()"></select></div>
+      <div class="filter-group"><label>Lỗi</label><select id="f_issue" onchange="applyFilters()"></select></div>
     </div>
     <div class="kpi-row">
-      <div class="health-card"><div class="label">Chá»‰ sá»‘ sá»©c khá»e ná» náº¿p</div><div class="health-score-ring" id="healthRing"></div><div class="health-verdict" id="healthVerdict">â€”</div></div>
+      <div class="health-card"><div class="label">Chỉ số sức khỏe nề nếp</div><div class="health-score-ring" id="healthRing"></div><div class="health-verdict" id="healthVerdict">—</div></div>
       <div class="kpis" id="kpiBox"></div>
     </div>
   </div>
 
   <section id="tab_overview" class="tab-content active">
     <div class="grid-2">
-      <div class="panel"><h3>Top lá»›p theo Ä‘iá»ƒm thi Ä‘ua</h3><div class="chart-box"><canvas id="chartTopClass"></canvas></div></div>
-      <div class="panel"><h3>CÆ¡ cáº¥u theo phÃ¢n loáº¡i</h3><div class="chart-box"><canvas id="chartCategory"></canvas></div></div>
+      <div class="panel"><h3>Top lớp theo điểm thi đua</h3><div class="chart-box"><canvas id="chartTopClass"></canvas></div></div>
+      <div class="panel"><h3>Cơ cấu theo phân loại</h3><div class="chart-box"><canvas id="chartCategory"></canvas></div></div>
     </div>
     <div class="grid-2">
-      <div class="panel"><h3>Xu hÆ°á»›ng Ä‘iá»ƒm theo ngÃ y</h3><div class="chart-box"><canvas id="chartDaily"></canvas></div></div>
-      <div class="panel"><h3>Top lá»—i máº¥t Ä‘iá»ƒm nhiá»u</h3><div class="chart-box"><canvas id="chartTopIssue"></canvas></div></div>
+      <div class="panel"><h3>Xu hướng điểm theo ngày</h3><div class="chart-box"><canvas id="chartDaily"></canvas></div></div>
+      <div class="panel"><h3>Top lỗi mất điểm nhiều</h3><div class="chart-box"><canvas id="chartTopIssue"></canvas></div></div>
     </div>
   </section>
 
-  <section id="tab_ranking" class="tab-content"><div class="panel"><h3>Báº£ng xáº¿p háº¡ng lá»›p</h3><div class="table-wrap" id="tableRanking"></div></div></section>
+  <section id="tab_ranking" class="tab-content"><div class="panel"><h3>Bảng xếp hạng lớp</h3><div class="table-wrap" id="tableRanking"></div></div></section>
   <section id="tab_analysis" class="tab-content">
     <div class="grid-2">
-      <div class="panel"><h3>Tá»· lá»‡ lá»—i & Ä‘iá»ƒm trá»«</h3><div class="table-wrap" id="tableIssues"></div></div>
-      <div class="panel"><h3><i class="ti ti-list-details"></i> Top lá»—i thÆ°á»ng gáº·p</h3><div class="table-wrap" id="tableTopErrors"></div></div>
+      <div class="panel"><h3>Tỷ lệ lỗi & điểm trừ</h3><div class="table-wrap" id="tableIssues"></div></div>
+      <div class="panel"><h3><i class="ti ti-list-details"></i> Top lỗi thường gặp</h3><div class="table-wrap" id="tableTopErrors"></div></div>
     </div>
     <div class="panel" style="margin-bottom:12px">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
-        <h3 style="margin:0"><i class="ti ti-alert-triangle"></i> Há»c sinh cháº¡m ngÆ°á»¡ng bÃ¡o Ä‘á»™ng</h3>
-        <button class="btn btn-secondary btn-sm" onclick="exportViolation()"><i class="ti ti-download"></i>Xuáº¥t danh sÃ¡ch</button>
+        <h3 style="margin:0"><i class="ti ti-alert-triangle"></i> Học sinh chạm ngưỡng báo động</h3>
+        <button class="btn btn-secondary btn-sm" onclick="exportViolation()"><i class="ti ti-download"></i>Xuất danh sách</button>
       </div>
       <div class="table-wrap" id="tableTopStudents" style="max-height:520px"></div>
     </div>
-    <div class="panel"><h3><i class="ti ti-lifebuoy"></i> Top lá»›p cáº§n há»— trá»£</h3><div class="table-wrap" id="tableTopClasses"></div></div>
+    <div class="panel"><h3><i class="ti ti-lifebuoy"></i> Top lớp cần hỗ trợ</h3><div class="table-wrap" id="tableTopClasses"></div></div>
   </section>
 
   <section id="tab_trend" class="tab-content">
     <div class="panel">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
-        <h3 style="margin:0">Xu hÆ°á»›ng vi pháº¡m theo tuáº§n</h3>
+        <h3 style="margin:0">Xu hướng vi phạm theo tuần</h3>
         <div style="display:flex;gap:6px">
-          <button class="btn btn-sm" style="background:var(--fpt-orange);color:#fff" onclick="renderTrend('class')" id="btnTrendClass">Theo lá»›p</button>
-          <button class="btn btn-sm btn-secondary" onclick="renderTrend('grade')" id="btnTrendGrade">Theo khá»‘i</button>
+          <button class="btn btn-sm" style="background:var(--fpt-orange);color:#fff" onclick="renderTrend('class')" id="btnTrendClass">Theo lớp</button>
+          <button class="btn btn-sm btn-secondary" onclick="renderTrend('grade')" id="btnTrendGrade">Theo khối</button>
         </div>
       </div>
       <div class="table-wrap" id="tableTrend" style="max-height:600px"></div>
     </div>
   </section>
 
-  <section id="tab_daily" class="tab-content"><div class="panel"><h3>Thá»‘ng kÃª theo ngÃ y</h3><div class="table-wrap" id="tableDaily"></div></div></section>
+  <section id="tab_daily" class="tab-content"><div class="panel"><h3>Thống kê theo ngày</h3><div class="table-wrap" id="tableDaily"></div></div></section>
 
   <section id="tab_detail" class="tab-content">
     <div class="panel">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
-        <h3 style="margin:0">Dá»¯ liá»‡u chi tiáº¿t</h3>
+        <h3 style="margin:0">Dữ liệu chi tiết</h3>
         <button class="btn btn-secondary btn-sm" onclick="exportCSV()"><i class="ti ti-download"></i>Export CSV</button>
       </div>
       <div class="table-wrap" id="tableDetail"></div>
@@ -1605,37 +1605,37 @@ tbody tr:hover {
   <section id="tab_admin" class="tab-content">
     <div class="admin-panel">
       <div class="subtabs">
-        <button class="subtab-btn active" onclick="switchRecordSubtab('quick')" id="btnRecordQuick">Nháº­p nhanh</button>
-        <button class="subtab-btn" onclick="switchRecordSubtab('file')" id="btnRecordFile">Nháº­p báº±ng file</button>
+        <button class="subtab-btn active" onclick="switchRecordSubtab('quick')" id="btnRecordQuick">Nhập nhanh</button>
+        <button class="subtab-btn" onclick="switchRecordSubtab('file')" id="btnRecordFile">Nhập bằng file</button>
       </div>
 
       <div id="recordQuick" class="record-subtab active">
         <div class="panel" style="box-shadow:none;border-radius:14px">
-          <h3>Ghi nháº­n ná» náº¿p nhanh</h3>
+          <h3>Ghi nhận nề nếp nhanh</h3>
           <div class="quick-form">
-            <div class="field"><label>Lá»›p</label><select id="quickClass"><option>Chá»n lá»›p</option></select></div>
-            <div class="field"><label>Há»c sinh</label><input id="quickStudent" placeholder="Nháº­p tÃªn hoáº·c mÃ£ há»c sinh"></div>
-            <div class="field"><label>Loáº¡i ghi nháº­n</label><select id="quickType"><option>Vi pháº¡m</option><option>Äiá»ƒm cá»™ng</option></select></div>
-            <div class="field"><label>Lá»—i / Quy táº¯c</label><input id="quickIssue" placeholder="VÃ­ dá»¥: Äi há»c muá»™n, Sai Ä‘á»“ng phá»¥c..."></div>
-            <textarea id="quickNote" placeholder="Ghi chÃº thÃªm cho láº§n ghi nháº­n nÃ y"></textarea>
+            <div class="field"><label>Lớp</label><select id="quickClass"><option>Chọn lớp</option></select></div>
+            <div class="field"><label>Học sinh</label><input id="quickStudent" placeholder="Nhập tên hoặc mã học sinh"></div>
+            <div class="field"><label>Loại ghi nhận</label><select id="quickType"><option>Vi phạm</option><option>Điểm cộng</option></select></div>
+            <div class="field"><label>Lỗi / Quy tắc</label><input id="quickIssue" placeholder="Ví dụ: Đi học muộn, Sai đồng phục..."></div>
+            <textarea id="quickNote" placeholder="Ghi chú thêm cho lần ghi nhận này"></textarea>
             <div class="quick-actions">
-              <button class="btn btn-secondary" onclick="clearQuickForm()">XÃ³a form</button>
-              <button class="btn btn-primary" onclick="saveQuickRecord()">LÆ°u ghi nháº­n</button>
+              <button class="btn btn-secondary" onclick="clearQuickForm()">Xóa form</button>
+              <button class="btn btn-primary" onclick="saveQuickRecord()">Lưu ghi nhận</button>
             </div>
           </div>
-          <p style="margin-top:12px;color:var(--text-muted);font-size:12px">Ghi chÃº: pháº§n nháº­p nhanh Ä‘ang dá»±ng giao diá»‡n frontend. Khi cáº§n lÆ°u tháº­t tá»«ng dÃ²ng, bá»• sung endpoint backend sau.</p>
+          <p style="margin-top:12px;color:var(--text-muted);font-size:12px">Ghi chú: phần nhập nhanh đang dựng giao diện frontend. Khi cần lưu thật từng dòng, bổ sung endpoint backend sau.</p>
         </div>
       </div>
 
       <div id="recordFile" class="record-subtab">
         <div class="upload-zone" id="uploadZone" onclick="document.getElementById('fileInput').click()">
           <div style="font-size:32px;margin-bottom:8px;color:var(--fpt-orange)"><i class="ti ti-cloud-upload"></i></div>
-          <div style="font-size:14px;font-weight:600;margin-bottom:4px">KÃ©o tháº£ file Excel vÃ o Ä‘Ã¢y hoáº·c click Ä‘á»ƒ chá»n</div>
-          <div style="font-size:12px;color:var(--text-muted)">Há»— trá»£ .xlsx, .xls</div>
+          <div style="font-size:14px;font-weight:600;margin-bottom:4px">Kéo thả file Excel vào đây hoặc click để chọn</div>
+          <div style="font-size:12px;color:var(--text-muted)">Hỗ trợ .xlsx, .xls</div>
           <input type="file" id="fileInput" accept=".xlsx,.xls" style="display:none" onchange="handleUpload(this.files[0])">
         </div>
-        <div class="admin-header"><h3>File Ä‘Ã£ import</h3><span style="font-size:12px;color:var(--text-muted)" id="adminStatus"></span></div>
-        <div class="file-list" id="fileList"><div class="empty-state"><div class="icon"><i class="ti ti-folder-open"></i></div><p>ChÆ°a cÃ³ file nÃ o</p></div></div>
+        <div class="admin-header"><h3>File đã import</h3><span style="font-size:12px;color:var(--text-muted)" id="adminStatus"></span></div>
+        <div class="file-list" id="fileList"><div class="empty-state"><div class="icon"><i class="ti ti-folder-open"></i></div><p>Chưa có file nào</p></div></div>
       </div>
     </div>
   </section>
@@ -1643,8 +1643,8 @@ tbody tr:hover {
   <section id="tab_audit" class="tab-content">
     <div class="panel">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;gap:10px;flex-wrap:wrap">
-        <h3 style="margin:0">Lá»‹ch sá»­ chá»‰nh sá»­a dá»¯ liá»‡u</h3>
-        <button class="btn btn-secondary btn-sm" onclick="loadAuditLogs()"><i class="ti ti-refresh"></i>Táº£i láº¡i</button>
+        <h3 style="margin:0">Lịch sử chỉnh sửa dữ liệu</h3>
+        <button class="btn btn-secondary btn-sm" onclick="loadAuditLogs()"><i class="ti ti-refresh"></i>Tải lại</button>
       </div>
       <div class="audit-summary" id="auditSummary"></div>
       <div class="table-wrap" id="tableAudit" style="max-height:620px"></div>
@@ -1654,28 +1654,28 @@ tbody tr:hover {
   <section id="tab_users" class="tab-content">
     <div class="panel">
       <div class="user-toolbar">
-        <div><h3 style="margin:0">Quáº£n lÃ½ ngÆ°á»i dÃ¹ng</h3><p style="color:var(--text-muted);font-size:13px;margin-top:4px">Táº¡o tÃ i khoáº£n, phÃ¢n quyá»n vÃ  theo dÃµi vai trÃ² ngÆ°á»i dÃ¹ng.</p></div>
-        <button class="btn btn-primary" onclick="openCreateUserModal()">+ Táº¡o ngÆ°á»i dÃ¹ng</button>
+        <div><h3 style="margin:0">Quản lý người dùng</h3><p style="color:var(--text-muted);font-size:13px;margin-top:4px">Tạo tài khoản, phân quyền và theo dõi vai trò người dùng.</p></div>
+        <button class="btn btn-primary" onclick="openCreateUserModal()">+ Tạo người dùng</button>
       </div>
       <div class="user-cards">
-        <div class="user-stat"><div class="label">Tá»•ng user</div><div class="value" id="userStatTotal">5</div></div>
-        <div class="user-stat"><div class="label">Quáº£n trá»‹</div><div class="value">1</div></div>
-        <div class="user-stat"><div class="label">BGH / Quáº£n lÃ½</div><div class="value">2</div></div>
-        <div class="user-stat"><div class="label">Bá»™ pháº­n nháº­p liá»‡u</div><div class="value">2</div></div>
+        <div class="user-stat"><div class="label">Tổng user</div><div class="value" id="userStatTotal">5</div></div>
+        <div class="user-stat"><div class="label">Quản trị</div><div class="value">1</div></div>
+        <div class="user-stat"><div class="label">BGH / Quản lý</div><div class="value">2</div></div>
+        <div class="user-stat"><div class="label">Bộ phận nhập liệu</div><div class="value">2</div></div>
       </div>
-      <div class="user-toolbar"><input class="user-search" id="userSearch" placeholder="TÃ¬m kiáº¿m ngÆ°á»i dÃ¹ng..." oninput="renderUsersTable()"><button class="btn btn-secondary btn-sm" onclick="renderUsersTable()">LÃ m má»›i</button></div>
+      <div class="user-toolbar"><input class="user-search" id="userSearch" placeholder="Tìm kiếm người dùng..." oninput="renderUsersTable()"><button class="btn btn-secondary btn-sm" onclick="renderUsersTable()">Làm mới</button></div>
       <div class="table-wrap" id="tableUsers"></div>
     </div>
   </section>
 
   <section id="tab_settings" class="tab-content">
     <div class="panel">
-      <h3>CÃ i Ä‘áº·t há»‡ thá»‘ng</h3>
+      <h3>Cài đặt hệ thống</h3>
       <div class="setting-grid">
-        <div class="setting-card"><h4>Quy táº¯c Ä‘iá»ƒm</h4><p>Quáº£n lÃ½ bá»™ quy táº¯c cá»™ng/trá»« Ä‘iá»ƒm, phÃ¢n loáº¡i lá»—i vÃ  fuzzy match.</p></div>
-        <div class="setting-card"><h4>Báº£o máº­t ghi Ä‘Ã¨</h4><p>Máº­t kháº©u ghi Ä‘Ã¨ sau 24h Ä‘Æ°á»£c cáº¥u hÃ¬nh báº±ng biáº¿n mÃ´i trÆ°á»ng trÃªn server.</p></div>
-        <div class="setting-card"><h4>PhÃ¢n quyá»n</h4><p>Admin xÃ³a file; BGH/Quáº£n lÃ½/GiÃ¡m thá»‹/BÃ¡n trÃº Ä‘Æ°á»£c upload theo quyá»n.</p></div>
-        <div class="setting-card"><h4>Xuáº¥t bÃ¡o cÃ¡o</h4><p>Khu vá»±c cáº¥u hÃ¬nh template bÃ¡o cÃ¡o tuáº§n/thÃ¡ng cho Ban GiÃ¡m hiá»‡u.</p></div>
+        <div class="setting-card"><h4>Quy tắc điểm</h4><p>Quản lý bộ quy tắc cộng/trừ điểm, phân loại lỗi và fuzzy match.</p></div>
+        <div class="setting-card"><h4>Bảo mật ghi đè</h4><p>Mật khẩu ghi đè sau 24h được cấu hình bằng biến môi trường trên server.</p></div>
+        <div class="setting-card"><h4>Phân quyền</h4><p>Admin xóa file; BGH/Quản lý/Giám thị/Bán trú được upload theo quyền.</p></div>
+        <div class="setting-card"><h4>Xuất báo cáo</h4><p>Khu vực cấu hình template báo cáo tuần/tháng cho Ban Giám hiệu.</p></div>
       </div>
     </div>
   </section>
@@ -1725,7 +1725,7 @@ const ICON_PATHS = {
   pencil:'<path d="M4 20h4l11-11a2.8 2.8 0 0 0-4-4L4 16v4z"/><path d="M13 6l5 5"/>'
 };
 
-// â”€â”€ AUTH â”€â”€
+// ── AUTH ──
 async function authFetch(url, opts={}){
   opts.credentials = 'include';
   opts.headers = {...(opts.headers||{})};
@@ -1736,7 +1736,7 @@ async function doLogout(){
   window.location.href='login.html';
 }
 
-// â”€â”€ INIT â”€â”€
+// ── INIT ──
 document.addEventListener('DOMContentLoaded', async ()=>{
   replaceIconFonts();
   startIconObserver();
@@ -1778,20 +1778,20 @@ function renderUserHeader(){
   if(el('hAvatar')) el('hAvatar').textContent = (u.display_name||u.username)[0].toUpperCase();
   if(el('hAvatarMobile')) el('hAvatarMobile').textContent = (u.display_name||u.username)[0].toUpperCase();
   if(el('hName')) el('hName').textContent = u.display_name||u.username;
-  const roleMap = {admin:'Quáº£n trá»‹ viÃªn',bangiamhieu:'Ban GiÃ¡m Hiá»‡u',quanly:'Quáº£n lÃ½ trÆ°á»ng',giamthi:'GiÃ¡m thá»‹',bantru:'BÃ¡n trÃº'};
+  const roleMap = {admin:'Quản trị viên',bangiamhieu:'Ban Giám Hiệu',quanly:'Quản lý trường',giamthi:'Giám thị',bantru:'Bán trú'};
   if(el('hRole')) el('hRole').textContent = roleMap[u.role]||u.role;
 }
 
 function buildTabs(){
   const labels = {
-    overview:'Tá»•ng quan',
-    detail:'Dá»¯ liá»‡u ná» náº¿p',
-    admin:'Ghi nháº­n ná» náº¿p',
-    audit:'Lá»‹ch sá»­ chá»‰nh sá»­a',
-    ranking:'Xáº¿p háº¡ng & Thi Ä‘ua',
-    analysis:'PhÃ¢n tÃ­ch lá»—i & Cáº£nh bÃ¡o',
-    users:'NgÆ°á»i dÃ¹ng',
-    settings:'CÃ i Ä‘áº·t'
+    overview:'Tổng quan',
+    detail:'Dữ liệu nề nếp',
+    admin:'Ghi nhận nề nếp',
+    audit:'Lịch sử chỉnh sửa',
+    ranking:'Xếp hạng & Thi đua',
+    analysis:'Phân tích lỗi & Cảnh báo',
+    users:'Người dùng',
+    settings:'Cài đặt'
   };
   const role = APP.user?.role || '';
   const roleMenus = {
@@ -1827,14 +1827,14 @@ function switchTab(tid){
   const tabEl = el('tab_'+tid);
   if(tabEl) tabEl.classList.add('active');
   const titles = {
-    overview:['Tá»•ng quan','Bá»©c tranh tá»•ng thá»ƒ vá» sá»©c khá»e ná» náº¿p toÃ n trÆ°á»ng.'],
-    detail:['Dá»¯ liá»‡u ná» náº¿p','Tra cá»©u chuyÃªn sÃ¢u theo há»c sinh, lá»›p, khá»‘i, lá»—i vÃ  nguá»“n dá»¯ liá»‡u.'],
-    admin:['Ghi nháº­n ná» náº¿p','Nháº­p nhanh tá»«ng tÃ¬nh huá»‘ng hoáº·c import file Excel hÃ ng loáº¡t.'],
-    audit:['Lá»‹ch sá»­ chá»‰nh sá»­a','Theo dÃµi upload, ghi Ä‘Ã¨, xÃ³a file vÃ  lÃ½ do thay Ä‘á»•i dá»¯ liá»‡u.'],
-    ranking:['Xáº¿p háº¡ng & Thi Ä‘ua','Báº£ng thi Ä‘ua phá»¥c vá»¥ chÃ o cá», khen thÆ°á»Ÿng vÃ  theo dÃµi tá»«ng khá»‘i.'],
-    analysis:['PhÃ¢n tÃ­ch lá»—i & Cáº£nh bÃ¡o','Nháº­n diá»‡n lá»—i phá»• biáº¿n, há»c sinh/lá»›p cháº¡m ngÆ°á»¡ng cáº§n há»— trá»£.'],
-    users:['NgÆ°á»i dÃ¹ng','Quáº£n lÃ½ tÃ i khoáº£n, vai trÃ² vÃ  quyá»n truy cáº­p há»‡ thá»‘ng.'],
-    settings:['CÃ i Ä‘áº·t','Thiáº¿t láº­p quy táº¯c Ä‘iá»ƒm, báº£o máº­t vÃ  cáº¥u hÃ¬nh váº­n hÃ nh.']
+    overview:['Tổng quan','Bức tranh tổng thể về sức khỏe nề nếp toàn trường.'],
+    detail:['Dữ liệu nề nếp','Tra cứu chuyên sâu theo học sinh, lớp, khối, lỗi và nguồn dữ liệu.'],
+    admin:['Ghi nhận nề nếp','Nhập nhanh từng tình huống hoặc import file Excel hàng loạt.'],
+    audit:['Lịch sử chỉnh sửa','Theo dõi upload, ghi đè, xóa file và lý do thay đổi dữ liệu.'],
+    ranking:['Xếp hạng & Thi đua','Bảng thi đua phục vụ chào cờ, khen thưởng và theo dõi từng khối.'],
+    analysis:['Phân tích lỗi & Cảnh báo','Nhận diện lỗi phổ biến, học sinh/lớp chạm ngưỡng cần hỗ trợ.'],
+    users:['Người dùng','Quản lý tài khoản, vai trò và quyền truy cập hệ thống.'],
+    settings:['Cài đặt','Thiết lập quy tắc điểm, bảo mật và cấu hình vận hành.']
   };
   if(el('pageTitle') && titles[tid]){ el('pageTitle').textContent=titles[tid][0]; el('pageDesc').textContent=titles[tid][1]; }
   el('filtersSection').style.display = (tid==='admin'||tid==='audit'||tid==='users'||tid==='settings')?'none':'';
@@ -1854,12 +1854,12 @@ function switchTab(tid){
   }
 }
 
-// â”€â”€ FETCH DATA â”€â”€
+// ── FETCH DATA ──
 async function fetchData(){
-  showLoading('Äang táº£i dá»¯ liá»‡uâ€¦');
+  showLoading('Đang tải dữ liệu…');
   try {
     const res = await authFetch('/data/rows');
-    if(!res.ok) throw new Error('Lá»—i táº£i data');
+    if(!res.ok) throw new Error('Lỗi tải data');
     const data = await res.json();
     APP.allRows = (data.rows||[]).map(r=>({
       ...r,
@@ -1872,14 +1872,14 @@ async function fetchData(){
       isViolation: r.is_violation===1||r.is_violation===true,
       point: Number(r.point)||0
     }));
-    if(!APP.allRows.length){hideLoading();showAlert('info','ChÆ°a cÃ³ dá»¯ liá»‡u. VÃ o tab <strong>Ghi nháº­n ná» náº¿p</strong> Ä‘á»ƒ upload file.');return}
+    if(!APP.allRows.length){hideLoading();showAlert('info','Chưa có dữ liệu. Vào tab <strong>Ghi nhận nề nếp</strong> để upload file.');return}
     buildFilterOptions(APP.allRows);
     applyFilters();
     hideLoading();
   } catch(e){ hideLoading(); showAlert('error', e.message) }
 }
 
-// â”€â”€ FILTERS â”€â”€
+// ── FILTERS ──
 function applyFilters(){
   const f={};FK.forEach(k=>{f[k]=el('f_'+k).value||''});
   const filtered=APP.allRows.filter(r=>{
@@ -1902,12 +1902,12 @@ function applyFilters(){
 }
 function resetFilters(){FK.forEach(k=>{el('f_'+k).value=''});applyFilters()}
 
-// â”€â”€ AGGREGATION â”€â”€
+// ── AGGREGATION ──
 function buildSummary(rows,ranking){
   const stu=new Set(),cls=new Set();let plus=0,minus=0,score=0,violations=0;
   rows.forEach(r=>{if(r.studentId||r.studentName)stu.add((r.studentId||'')+'|'+(r.studentName||''));
     if(r.className)cls.add(r.className);const p=+r.point||0;score+=p;if(p>0)plus+=p;if(p<0)minus+=Math.abs(p);if(r.isViolation)violations++});
-  return{totalScore:rd(score),totalPlus:rd(plus),totalMinus:rd(minus),totalViolations:violations,totalStudents:stu.size,totalClasses:cls.size,bestClass:ranking.length?ranking[0].className:'â€”',warningClass:ranking.length?ranking[ranking.length-1].className:'â€”'}
+  return{totalScore:rd(score),totalPlus:rd(plus),totalMinus:rd(minus),totalViolations:violations,totalStudents:stu.size,totalClasses:cls.size,bestClass:ranking.length?ranking[0].className:'—',warningClass:ranking.length?ranking[ranking.length-1].className:'—'}
 }
 function buildRanking(rows){
   const m={};rows.forEach(r=>{const k=r.className||'?';if(!m[k])m[k]={className:k,level:r.level||'',grade:r.grade||'',score:0,plus:0,minus:0,issueCount:0,students:new Set()};
@@ -1919,11 +1919,11 @@ function buildDaily(rows){const m={};rows.forEach(r=>{const k=r.date||'?';if(!m[
 function buildCategories(rows){const m={};rows.forEach(r=>{const k=r.category||'?';if(!m[k])m[k]={category:k,count:0,minus:0};m[k].count++;if((+r.point||0)<0)m[k].minus+=Math.abs(+r.point||0)});return Object.values(m).sort((a,b)=>b.count-a.count).map(x=>({category:x.category,count:x.count,minus:rd(x.minus)}))}
 function buildFilterOptions(rows){
   const opts={};FK.forEach(k=>{const key=k==='className'?'className':k;const v=[...new Set(rows.map(r=>String(r[key]||'')).filter(Boolean))];opts[k]=k==='grade'?v.sort((a,b)=>+a-+b):v.sort((a,b)=>a.localeCompare(b,'vi'))});
-  const L={month:'Táº¥t cáº£ thÃ¡ng',week:'Táº¥t cáº£ tuáº§n',level:'Táº¥t cáº£ cáº¥p',grade:'Táº¥t cáº£ khá»‘i',className:'Táº¥t cáº£ lá»›p',category:'Táº¥t cáº£ phÃ¢n loáº¡i',issue:'Táº¥t cáº£ lá»—i'};
+  const L={month:'Tất cả tháng',week:'Tất cả tuần',level:'Tất cả cấp',grade:'Tất cả khối',className:'Tất cả lớp',category:'Tất cả phân loại',issue:'Tất cả lỗi'};
   FK.forEach(k=>{const s=el('f_'+k);const c=s.value||'';s.innerHTML='<option value="">'+L[k]+'</option>'+(opts[k]||[]).map(v=>'<option value="'+esc(v)+'">'+esc(v)+'</option>').join('');s.value=c})
 }
 
-// â”€â”€ RENDER â”€â”€
+// ── RENDER ──
 function renderHealthScore(rows, summary){
   const totalScore = summary.totalScore || 0;
 
@@ -1933,7 +1933,7 @@ function renderHealthScore(rows, summary){
   );
 
   const color = score >= 80 ? C.green : score >= 60 ? C.orange : C.red;
-  const verdict = score >= 80 ? 'Tá»‘t' : score >= 60 ? 'Cáº§n cáº£i thiá»‡n' : 'Cáº£nh bÃ¡o';
+  const verdict = score >= 80 ? 'Tốt' : score >= 60 ? 'Cần cải thiện' : 'Cảnh báo';
   const vColor = score >= 80 ? 'var(--fpt-green-light)' : score >= 60 ? 'var(--fpt-orange-light)' : 'var(--red-light)';
   const vText = score >= 80 ? 'var(--fpt-green)' : score >= 60 ? 'var(--fpt-orange)' : 'var(--red)';
   const circumference = 2 * Math.PI * 48;
@@ -1952,30 +1952,30 @@ function renderHealthScore(rows, summary){
 }
 function renderKPIs(s){
   el('kpiBox').innerHTML=[
-    {l:'Tá»•ng Ä‘iá»ƒm',v:fmtN(s.totalScore),c:'c-o',i:'io',ic:'chart-bar'},
-    {l:'Äiá»ƒm cá»™ng',v:fmtN(s.totalPlus),c:'c-g',i:'ig',ic:'plus'},
-    {l:'Äiá»ƒm trá»«',v:fmtN(s.totalMinus),c:'c-r',i:'ir',ic:'minus'},
-    {l:'LÆ°á»£t vi pháº¡m',v:fmtN(s.totalViolations),c:'c-r',i:'ir',ic:'alert-triangle'},
-    {l:'Sá»‘ HS liÃªn quan',v:fmtN(s.totalStudents),c:'c-b',i:'ib',ic:'users'},
-    {l:'Sá»‘ lá»›p',v:fmtN(s.totalClasses),c:'c-b',i:'ib',ic:'building-bank'},
-    {l:'Lá»›p xuáº¥t sáº¯c',v:s.bestClass||'â€”',c:'c-g',i:'ig',ic:'trophy',sm:1},
-    {l:'Cáº§n há»— trá»£',v:s.warningClass||'â€”',c:'c-r',i:'ir',ic:'bell',sm:1}
+    {l:'Tổng điểm',v:fmtN(s.totalScore),c:'c-o',i:'io',ic:'chart-bar'},
+    {l:'Điểm cộng',v:fmtN(s.totalPlus),c:'c-g',i:'ig',ic:'plus'},
+    {l:'Điểm trừ',v:fmtN(s.totalMinus),c:'c-r',i:'ir',ic:'minus'},
+    {l:'Lượt vi phạm',v:fmtN(s.totalViolations),c:'c-r',i:'ir',ic:'alert-triangle'},
+    {l:'Số HS liên quan',v:fmtN(s.totalStudents),c:'c-b',i:'ib',ic:'users'},
+    {l:'Số lớp',v:fmtN(s.totalClasses),c:'c-b',i:'ib',ic:'building-bank'},
+    {l:'Lớp xuất sắc',v:s.bestClass||'—',c:'c-g',i:'ig',ic:'trophy',sm:1},
+    {l:'Cần hỗ trợ',v:s.warningClass||'—',c:'c-r',i:'ir',ic:'bell',sm:1}
   ].map(k=>'<div class="kpi '+k.c+'"><div class="kpi-top"><div class="kpi-label">'+k.l+'</div><div class="kpi-icon '+k.i+'"><i class="ti ti-'+k.ic+'"></i></div></div><div class="kpi-value'+(k.sm?' sm':'')+'">'+k.v+'</div></div>').join('')
 }
 
-// â”€â”€ CHARTS â”€â”€
+// ── CHARTS ──
 function renderCharts(d){
   if(typeof Chart === 'undefined'){
     destroyCharts();
-    renderChartFallback('KhÃ´ng táº£i Ä‘Æ°á»£c thÆ° viá»‡n biá»ƒu Ä‘á»“');
+    renderChartFallback('Không tải được thư viện biểu đồ');
     return;
   }
   clearChartFallbacks();
   destroyCharts();Chart.defaults.font.family="'Geist',Arial,sans-serif";Chart.defaults.font.size=11;Chart.defaults.color='#6b7280';
   const t10=d.ranking.slice(0,10),ti=d.issues.filter(i=>i.minus>0).slice(0,10),dl=d.daily,cats=d.categories.filter(c=>c.count>0);
-  APP.charts.c1=new Chart(el('chartTopClass'),{type:'bar',data:{labels:t10.map(x=>x.className),datasets:[{label:'Cá»™ng',data:t10.map(x=>x.plus),backgroundColor:C.green+'cc',borderRadius:4},{label:'Trá»«',data:t10.map(x=>-x.minus),backgroundColor:C.red+'cc',borderRadius:4}]},options:{...barO('y'),plugins:{...barO('y').plugins,tooltip:{callbacks:{label:c=>c.dataset.label+': '+Math.abs(c.raw)}}}}});
-  APP.charts.c2=new Chart(el('chartTopIssue'),{type:'bar',data:{labels:ti.map(x=>shortT(x.issue,22)),datasets:[{label:'Äiá»ƒm trá»«',data:ti.map(x=>x.minus),backgroundColor:C.red+'bb',borderRadius:4}]},options:barO('y')});
-  APP.charts.c3=new Chart(el('chartDaily'),{type:'line',data:{labels:dl.map(x=>x.date),datasets:[{label:'Tá»•ng Ä‘iá»ƒm',data:dl.map(x=>x.score),borderColor:C.orange,backgroundColor:C.orange+'18',fill:true,tension:.35,pointRadius:3,borderWidth:2},{label:'Vi pháº¡m',data:dl.map(x=>x.count),borderColor:C.red,backgroundColor:'transparent',tension:.35,pointRadius:2,borderWidth:1.5,borderDash:[4,3]}]},options:lineO()});
+  APP.charts.c1=new Chart(el('chartTopClass'),{type:'bar',data:{labels:t10.map(x=>x.className),datasets:[{label:'Cộng',data:t10.map(x=>x.plus),backgroundColor:C.green+'cc',borderRadius:4},{label:'Trừ',data:t10.map(x=>-x.minus),backgroundColor:C.red+'cc',borderRadius:4}]},options:{...barO('y'),plugins:{...barO('y').plugins,tooltip:{callbacks:{label:c=>c.dataset.label+': '+Math.abs(c.raw)}}}}});
+  APP.charts.c2=new Chart(el('chartTopIssue'),{type:'bar',data:{labels:ti.map(x=>shortT(x.issue,22)),datasets:[{label:'Điểm trừ',data:ti.map(x=>x.minus),backgroundColor:C.red+'bb',borderRadius:4}]},options:barO('y')});
+  APP.charts.c3=new Chart(el('chartDaily'),{type:'line',data:{labels:dl.map(x=>x.date),datasets:[{label:'Tổng điểm',data:dl.map(x=>x.score),borderColor:C.orange,backgroundColor:C.orange+'18',fill:true,tension:.35,pointRadius:3,borderWidth:2},{label:'Vi phạm',data:dl.map(x=>x.count),borderColor:C.red,backgroundColor:'transparent',tension:.35,pointRadius:2,borderWidth:1.5,borderDash:[4,3]}]},options:lineO()});
   APP.charts.c4=new Chart(el('chartCategory'),{type:'doughnut',data:{labels:cats.map(x=>x.category),datasets:[{data:cats.map(x=>x.count),backgroundColor:COLORS.slice(0,cats.length),borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{position:'bottom',labels:{padding:10,usePointStyle:true,pointStyle:'circle',font:{size:11}}}}}});
 }
 function renderChartFallback(message){
@@ -1989,7 +1989,7 @@ function renderChartFallback(message){
         fb.className='chart-fallback';
         c.parentElement.appendChild(fb);
       }
-      fb.innerHTML='<div><i class="ti ti-chart-bar-off"></i><br>'+esc(message||'ChÆ°a cÃ³ dá»¯ liá»‡u biá»ƒu Ä‘á»“')+'</div>';
+      fb.innerHTML='<div><i class="ti ti-chart-bar-off"></i><br>'+esc(message||'Chưa có dữ liệu biểu đồ')+'</div>';
     }
   });
 }
@@ -2007,29 +2007,29 @@ function barO(a){return{indexAxis:a==='y'?'y':'x',responsive:true,maintainAspect
 function lineO(){return{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{padding:10,usePointStyle:true,pointStyle:'circle',font:{size:11}}}},scales:{x:{grid:{display:false},ticks:{maxRotation:45,font:{size:10}}},y:{grid:{color:'#f0f1f5'},ticks:{font:{size:10}}}}}}
 function destroyCharts(){Object.keys(APP.charts).forEach(k=>{try{APP.charts[k].destroy()}catch(e){}});APP.charts={}}
 
-// â”€â”€ TABLES â”€â”€
-function renderRankingTable(rows){mkTable('tableRanking',['Háº¡ng','Lá»›p','Cáº¥p','Khá»‘i','Tá»•ng','Cá»™ng','Trá»«','Lá»—i','HS'],rows.map(r=>[rankB(r.rank),esc(r.className),esc(r.level),esc(r.grade),colorN(r.score),'<span class="text-green">'+fmtN(r.plus)+'</span>','<span class="text-red">'+fmtN(r.minus)+'</span>',fmtN(r.issueCount),fmtN(r.studentCount)]))}
-function renderIssuesTable(rows){const tot=rows.reduce((s,r)=>s+(r.minus||0),0)||1;mkTable('tableIssues',['Lá»—i','Loáº¡i','LÆ°á»£t','Trá»«','%','Tá»•ng'],rows.map(r=>[esc(r.issue),'<span class="pill">'+esc(r.category)+'</span>',fmtN(r.count),'<span class="text-red">'+fmtN(r.minus)+'</span>',(r.minus/tot*100).toFixed(1)+'%',colorN(r.score)]))}
-function renderDailyTable(rows){mkTable('tableDaily',['NgÃ y','Tá»•ng','Cá»™ng','Trá»«','Vi pháº¡m'],rows.map(r=>[esc(r.date),colorN(r.score),'<span class="text-green">'+fmtN(r.plus)+'</span>','<span class="text-red">'+fmtN(r.minus)+'</span>',fmtN(r.count)]))}
-function renderDetailTable(rows){mkTable('tableDetail',['NgÃ y','Tuáº§n','Lá»›p','Há»c sinh','Lá»—i','Loáº¡i','Äiá»ƒm','Ghi chÃº','File'],rows.map(r=>[esc(r.dateLabel),esc(r.week),esc(r.className),esc([r.studentId,r.studentName].filter(Boolean).join(' â€” ')),esc(r.issue),'<span class="pill">'+esc(r.category)+'</span>',colorN(r.point),esc(r.note),'<span style="font-size:11px;color:var(--text-muted)">'+esc(r.sourceFile)+'</span>']))}
-function mkTable(id,hd,rows){el(id).innerHTML=!rows.length?'<div class="empty-state"><div class="icon"><i class="ti ti-database-off"></i></div><p>KhÃ´ng cÃ³ dá»¯ liá»‡u</p></div>':'<table><thead><tr>'+hd.map(h=>'<th>'+h+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+r.map(c=>'<td>'+c+'</td>').join('')+'</tr>').join('')+'</tbody></table>'}
+// ── TABLES ──
+function renderRankingTable(rows){mkTable('tableRanking',['Hạng','Lớp','Cấp','Khối','Tổng','Cộng','Trừ','Lỗi','HS'],rows.map(r=>[rankB(r.rank),esc(r.className),esc(r.level),esc(r.grade),colorN(r.score),'<span class="text-green">'+fmtN(r.plus)+'</span>','<span class="text-red">'+fmtN(r.minus)+'</span>',fmtN(r.issueCount),fmtN(r.studentCount)]))}
+function renderIssuesTable(rows){const tot=rows.reduce((s,r)=>s+(r.minus||0),0)||1;mkTable('tableIssues',['Lỗi','Loại','Lượt','Trừ','%','Tổng'],rows.map(r=>[esc(r.issue),'<span class="pill">'+esc(r.category)+'</span>',fmtN(r.count),'<span class="text-red">'+fmtN(r.minus)+'</span>',(r.minus/tot*100).toFixed(1)+'%',colorN(r.score)]))}
+function renderDailyTable(rows){mkTable('tableDaily',['Ngày','Tổng','Cộng','Trừ','Vi phạm'],rows.map(r=>[esc(r.date),colorN(r.score),'<span class="text-green">'+fmtN(r.plus)+'</span>','<span class="text-red">'+fmtN(r.minus)+'</span>',fmtN(r.count)]))}
+function renderDetailTable(rows){mkTable('tableDetail',['Ngày','Tuần','Lớp','Học sinh','Lỗi','Loại','Điểm','Ghi chú','File'],rows.map(r=>[esc(r.dateLabel),esc(r.week),esc(r.className),esc([r.studentId,r.studentName].filter(Boolean).join(' — ')),esc(r.issue),'<span class="pill">'+esc(r.category)+'</span>',colorN(r.point),esc(r.note),'<span style="font-size:11px;color:var(--text-muted)">'+esc(r.sourceFile)+'</span>']))}
+function mkTable(id,hd,rows){el(id).innerHTML=!rows.length?'<div class="empty-state"><div class="icon"><i class="ti ti-database-off"></i></div><p>Không có dữ liệu</p></div>':'<table><thead><tr>'+hd.map(h=>'<th>'+h+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+r.map(c=>'<td>'+c+'</td>').join('')+'</tr>').join('')+'</tbody></table>'}
 
-// â”€â”€ WARNING TAB â”€â”€
+// ── WARNING TAB ──
 function renderWarningTab(rows){
   const vio=rows.filter(r=>r.isViolation||(+r.point||0)<0);
   const sm={};vio.forEach(r=>{const k=(r.studentName||'?')+'|'+(r.className||'');if(!sm[k])sm[k]={n:r.studentName||'?',c:r.className||'?',g:r.grade||'',cnt:0,m:0,iss:new Set()};sm[k].cnt++;sm[k].m+=Math.abs(+r.point||0);if(r.issue)sm[k].iss.add(r.issue)});
   const ts=Object.values(sm).filter(s=>s.n!=='?').sort((a,b)=>b.cnt-a.cnt||b.m-a.m).slice(0,50);
   APP.violationStudents=ts;
-  mkTable('tableTopStudents',['#','Há»c sinh','Lá»›p','Khá»‘i','Láº§n','Trá»«','Lá»—i chÃ­nh'],ts.map((s,i)=>[i+1,esc(s.n),esc(s.c),esc(s.g),'<strong>'+s.cnt+'</strong>','<span class="text-red">'+fmtN(rd(s.m))+'</span>','<span style="font-size:11px">'+esc([...s.iss].slice(0,2).join(', '))+'</span>']));
+  mkTable('tableTopStudents',['#','Học sinh','Lớp','Khối','Lần','Trừ','Lỗi chính'],ts.map((s,i)=>[i+1,esc(s.n),esc(s.c),esc(s.g),'<strong>'+s.cnt+'</strong>','<span class="text-red">'+fmtN(rd(s.m))+'</span>','<span style="font-size:11px">'+esc([...s.iss].slice(0,2).join(', '))+'</span>']));
   const cm={};vio.forEach(r=>{const k=r.className||'?';if(!cm[k])cm[k]={c:k,l:r.level||'',g:r.grade||'',cnt:0,m:0,stu:new Set()};cm[k].cnt++;cm[k].m+=Math.abs(+r.point||0);if(r.studentName)cm[k].stu.add(r.studentName)});
   const tc=Object.values(cm).sort((a,b)=>b.cnt-a.cnt).slice(0,15);
-  mkTable('tableTopClasses',['#','Lá»›p','Cáº¥p','Khá»‘i','VP','Trá»«','HS'],tc.map((c,i)=>[i+1,'<strong>'+esc(c.c)+'</strong>',esc(c.l),esc(c.g),'<span class="text-red">'+c.cnt+'</span>','<span class="text-red">'+fmtN(rd(c.m))+'</span>',c.stu.size]));
+  mkTable('tableTopClasses',['#','Lớp','Cấp','Khối','VP','Trừ','HS'],tc.map((c,i)=>[i+1,'<strong>'+esc(c.c)+'</strong>',esc(c.l),esc(c.g),'<span class="text-red">'+c.cnt+'</span>','<span class="text-red">'+fmtN(rd(c.m))+'</span>',c.stu.size]));
   const em={};vio.forEach(r=>{const k=r.issue||'?';if(!em[k])em[k]={i:k,cat:r.category||'',cnt:0,m:0,cls:new Set(),stu:new Set()};em[k].cnt++;em[k].m+=Math.abs(+r.point||0);if(r.className)em[k].cls.add(r.className);if(r.studentName)em[k].stu.add(r.studentName)});
   const te=Object.values(em).sort((a,b)=>b.cnt-a.cnt).slice(0,15);const tv=vio.length||1;
-  mkTable('tableTopErrors',['#','Lá»—i','Loáº¡i','LÆ°á»£t','%','Trá»«','Lá»›p','HS'],te.map((e,i)=>[i+1,esc(e.i),'<span class="pill">'+esc(e.cat)+'</span>','<strong>'+e.cnt+'</strong>',(e.cnt/tv*100).toFixed(1)+'%','<span class="text-red">'+fmtN(rd(e.m))+'</span>',e.cls.size,e.stu.size]))
+  mkTable('tableTopErrors',['#','Lỗi','Loại','Lượt','%','Trừ','Lớp','HS'],te.map((e,i)=>[i+1,esc(e.i),'<span class="pill">'+esc(e.cat)+'</span>','<strong>'+e.cnt+'</strong>',(e.cnt/tv*100).toFixed(1)+'%','<span class="text-red">'+fmtN(rd(e.m))+'</span>',e.cls.size,e.stu.size]))
 }
 
-// â”€â”€ TREND TAB â”€â”€
+// ── TREND TAB ──
 function renderTrend(mode){
   el('btnTrendClass').style.background=mode==='class'?'var(--fpt-orange)':'';el('btnTrendClass').style.color=mode==='class'?'#fff':'';
   el('btnTrendGrade').style.background=mode==='grade'?'var(--fpt-orange)':'';el('btnTrendGrade').style.color=mode==='grade'?'#fff':'';
@@ -2038,20 +2038,20 @@ function renderTrend(mode){
   const vio=rows.filter(r=>r.isViolation||(+r.point||0)<0);
   const ws=new Set();vio.forEach(r=>{if(r.week)ws.add(r.week)});
   const weeks=[...ws].sort((a,b)=>(parseInt(a.replace(/\D/g,''))||0)-(parseInt(b.replace(/\D/g,''))||0));
-  if(!weeks.length){el('tableTrend').innerHTML='<div class="empty-state"><div class="icon"><i class="ti ti-chart-bar-off"></i></div><p>KhÃ´ng cÃ³ dá»¯ liá»‡u</p></div>';return}
+  if(!weeks.length){el('tableTrend').innerHTML='<div class="empty-state"><div class="icon"><i class="ti ti-chart-bar-off"></i></div><p>Không có dữ liệu</p></div>';return}
   const gk=mode==='grade'?'grade':'className';const mx={};
   vio.forEach(r=>{const g=r[gk]||'?',w=r.week||'?';if(!mx[g])mx[g]={};mx[g][w]=(mx[g][w]||0)+1});
   const groups=Object.keys(mx).sort((a,b)=>mode==='grade'?(+a||99)-(+b||99):a.localeCompare(b,'vi'));
-  let h='<table class="trend-table"><thead><tr><th style="text-align:left;position:sticky;left:0;background:#f8f9fb;z-index:3">'+(mode==='grade'?'Khá»‘i':'Lá»›p')+'</th>';
-  weeks.forEach(w=>{h+='<th>'+esc(w)+'</th>'});h+='<th>Tá»•ng</th><th>Trend</th></tr></thead><tbody>';
-  groups.forEach(g=>{h+='<tr><td class="row-label">'+esc(mode==='grade'?'Khá»‘i '+g:g)+'</td>';let t=0;const wv=[];
+  let h='<table class="trend-table"><thead><tr><th style="text-align:left;position:sticky;left:0;background:#f8f9fb;z-index:3">'+(mode==='grade'?'Khối':'Lớp')+'</th>';
+  weeks.forEach(w=>{h+='<th>'+esc(w)+'</th>'});h+='<th>Tổng</th><th>Trend</th></tr></thead><tbody>';
+  groups.forEach(g=>{h+='<tr><td class="row-label">'+esc(mode==='grade'?'Khối '+g:g)+'</td>';let t=0;const wv=[];
     weeks.forEach(w=>{const v=mx[g][w]||0;t+=v;wv.push(v);let cl='heat-zero';if(v>0){const pi=weeks.indexOf(w)-1;if(pi>=0){const pv=mx[g][weeks[pi]]||0;cl=v>pv?'heat-up':v<pv?'heat-down':'heat-same'}else cl='heat-same'}h+='<td class="'+cl+'">'+(v||'<span class="heat-zero">0</span>')+'</td>'});
-    let tr='â€”';if(wv.length>=2){const l=wv[wv.length-1],p=wv[wv.length-2];tr=l>p?'<span class="text-red">â†‘ +'+(l-p)+'</span>':l<p?'<span class="text-green">â†“ '+(l-p)+'</span>':'<span style="color:var(--text-muted)">â†’</span>'}
+    let tr='—';if(wv.length>=2){const l=wv[wv.length-1],p=wv[wv.length-2];tr=l>p?'<span class="text-red">↑ +'+(l-p)+'</span>':l<p?'<span class="text-green">↓ '+(l-p)+'</span>':'<span style="color:var(--text-muted)">→</span>'}
     h+='<td><strong>'+t+'</strong></td><td>'+tr+'</td></tr>'});
   h+='</tbody></table>';el('tableTrend').innerHTML=h;
 }
 
-// â”€â”€ ADMIN â€” UPLOAD â”€â”€
+// ── ADMIN — UPLOAD ──
 function initDragDrop(){
   const zone=el('uploadZone'); if(!zone)return;
   zone.addEventListener('dragover',e=>{e.preventDefault();zone.classList.add('dragover')});
@@ -2062,7 +2062,7 @@ async function handleUpload(file){
   if(!file) return;
 
   if(!file.name.match(/\.(xlsx|xls)$/i)){
-    showAlert('error','Chá»‰ há»— trá»£ file Excel .xlsx hoáº·c .xls');
+    showAlert('error','Chỉ hỗ trợ file Excel .xlsx hoặc .xls');
     return;
   }
 
@@ -2076,17 +2076,17 @@ async function handleUpload(file){
 
     if(checkRes.ok && checkData.exists){
       const oldRows = checkData.file?.row_count || 0;
-      const ageHours = checkData.age_hours ?? 'â€”';
+      const ageHours = checkData.age_hours ?? '—';
       const confirmReplace = await showModal({
-        title: 'File Ä‘Ã£ tá»“n táº¡i',
+        title: 'File đã tồn tại',
         icon: '!',
-        body: `File <strong>${esc(file.name)}</strong> Ä‘Ã£ tá»“n táº¡i trong há»‡ thá»‘ng.<br>Sá»‘ dÃ²ng cÅ©: <strong>${fmtN(oldRows)}</strong> Â· Tuá»•i file: <strong>${ageHours} giá»</strong><br><br>Báº¡n cÃ³ muá»‘n ghi Ä‘Ã¨ file cÅ© khÃ´ng?`,
-        confirmText: 'Ghi Ä‘Ã¨',
-        cancelText: 'Há»§y'
+        body: `File <strong>${esc(file.name)}</strong> đã tồn tại trong hệ thống.<br>Số dòng cũ: <strong>${fmtN(oldRows)}</strong> · Tuổi file: <strong>${ageHours} giờ</strong><br><br>Bạn có muốn ghi đè file cũ không?`,
+        confirmText: 'Ghi đè',
+        cancelText: 'Hủy'
       });
 
       if(!confirmReplace){
-        showAlert('info','ÄÃ£ huá»· upload');
+        showAlert('info','Đã huỷ upload');
         return;
       }
 
@@ -2094,43 +2094,43 @@ async function handleUpload(file){
 
       if(checkData.requires_password){
         reason = await showModal({
-          title: 'YÃªu cáº§u lÃ½ do chá»‰nh sá»­a',
+          title: 'Yêu cầu lý do chỉnh sửa',
           icon: 'pencil',
-          body: 'File Ä‘Ã£ quÃ¡ 24h. Vui lÃ²ng nháº­p lÃ½ do chá»‰nh sá»­a dá»¯ liá»‡u:',
+          body: 'File đã quá 24h. Vui lòng nhập lý do chỉnh sửa dữ liệu:',
           input: true,
-          placeholder: 'VÃ­ dá»¥: Cáº­p nháº­t láº¡i do file cÅ© thiáº¿u dá»¯ liá»‡u',
-          confirmText: 'Tiáº¿p tá»¥c',
-          cancelText: 'Há»§y'
+          placeholder: 'Ví dụ: Cập nhật lại do file cũ thiếu dữ liệu',
+          confirmText: 'Tiếp tục',
+          cancelText: 'Hủy'
         });
 
         if(!reason || !reason.trim()){
-          showAlert('error','Báº¯t buá»™c nháº­p lÃ½ do');
+          showAlert('error','Bắt buộc nhập lý do');
           return;
         }
 
         overridePassword = await showModal({
-          title: 'XÃ¡c nháº­n báº£o máº­t',
+          title: 'Xác nhận bảo mật',
           icon: 'lock',
-          body: 'Nháº­p máº­t kháº©u xÃ¡c nháº­n Ä‘á»ƒ ghi Ä‘Ã¨ file sau 24h:',
+          body: 'Nhập mật khẩu xác nhận để ghi đè file sau 24h:',
           input: true,
           inputType: 'password',
-          placeholder: 'Nháº­p máº­t kháº©u',
-          confirmText: 'XÃ¡c nháº­n',
-          cancelText: 'Há»§y'
+          placeholder: 'Nhập mật khẩu',
+          confirmText: 'Xác nhận',
+          cancelText: 'Hủy'
         });
 
         if(!overridePassword){
-          showAlert('error','Thiáº¿u máº­t kháº©u');
+          showAlert('error','Thiếu mật khẩu');
           return;
         }
       }
     }
   }catch(e){
-    showAlert('error','KhÃ´ng kiá»ƒm tra Ä‘Æ°á»£c file trÃ¹ng: ' + e.message);
+    showAlert('error','Không kiểm tra được file trùng: ' + e.message);
     return;
   }
 
-  showLoading((overwrite ? 'Äang ghi Ä‘Ã¨ ' : 'Äang upload ') + file.name + '...');
+  showLoading((overwrite ? 'Đang ghi đè ' : 'Đang upload ') + file.name + '...');
 
   try{
     const fd = new FormData();
@@ -2148,16 +2148,16 @@ async function handleUpload(file){
     const data = await res.json();
 
     if(!res.ok){
-      const msg = typeof data.detail === 'object' ? (data.detail.message || JSON.stringify(data.detail)) : (data.detail || 'Upload tháº¥t báº¡i');
+      const msg = typeof data.detail === 'object' ? (data.detail.message || JSON.stringify(data.detail)) : (data.detail || 'Upload thất bại');
       throw new Error(msg);
     }
 
     hideLoading();
 
     if(data.replaced){
-      showAlert('success','ÄÃ£ ghi Ä‘Ã¨ file cÅ©: <strong>' + esc(data.file) + '</strong>');
+      showAlert('success','Đã ghi đè file cũ: <strong>' + esc(data.file) + '</strong>');
     }else{
-      showAlert('success','Upload thÃ nh cÃ´ng: <strong>' + data.rows + '</strong> dÃ²ng tá»« ' + esc(data.file));
+      showAlert('success','Upload thành công: <strong>' + data.rows + '</strong> dòng từ ' + esc(data.file));
     }
 
     loadFiles();
@@ -2182,24 +2182,24 @@ async function loadFiles(){
     const res=await authFetch('/data/files');
     const data=await res.json();
     const files=data.files||[];
-    if(el('adminStatus')) el('adminStatus').textContent=files.length+' file Â· '+files.reduce((s,f)=>s+(f.row_count||0),0)+' dÃ²ng';
-    if(!files.length){el('fileList').innerHTML='<div class="empty-state"><div class="icon"><i class="ti ti-folder-open"></i></div><p>ChÆ°a cÃ³ file</p></div>';return}
+    if(el('adminStatus')) el('adminStatus').textContent=files.length+' file · '+files.reduce((s,f)=>s+(f.row_count||0),0)+' dòng';
+    if(!files.length){el('fileList').innerHTML='<div class="empty-state"><div class="icon"><i class="ti ti-folder-open"></i></div><p>Chưa có file</p></div>';return}
     el('fileList').innerHTML=files.map(f=>{
       const badge=f.status==='OK'?'<span class="badge badge-ok">OK</span>':'<span class="badge badge-err">'+esc(f.status)+'</span>';
       const dt=f.imported_at?new Date(f.imported_at).toLocaleString('vi-VN'):'';
       const canDel=APP.perms?.can_delete_files === true;
-      return'<div class="file-item"><div class="file-info"><div class="file-name">'+esc(f.file_name)+' '+badge+'</div><div class="file-meta">'+dt+' Â· '+fmtN(f.row_count)+' dÃ²ng Â· '+esc(f.folder)+'</div></div>'+(canDel?'<div class="file-actions"><button class="btn btn-danger btn-sm" onclick="deleteFile('+f.id+',\''+esc(f.file_name)+'\')" title="XÃ³a file"><i class="ti ti-trash"></i></button></div>':'')+'</div>'
+      return'<div class="file-item"><div class="file-info"><div class="file-name">'+esc(f.file_name)+' '+badge+'</div><div class="file-meta">'+dt+' · '+fmtN(f.row_count)+' dòng · '+esc(f.folder)+'</div></div>'+(canDel?'<div class="file-actions"><button class="btn btn-danger btn-sm" onclick="deleteFile('+f.id+',\''+esc(f.file_name)+'\')" title="Xóa file"><i class="ti ti-trash"></i></button></div>':'')+'</div>'
     }).join('');
   }catch(e){showAlert('error',e.message)}
 }
 async function deleteFile(id,name){
-  if(!confirm('XÃ³a dá»¯ liá»‡u file: '+name+'?'))return;
-  showLoading('Äang xÃ³aâ€¦');
+  if(!confirm('Xóa dữ liệu file: '+name+'?'))return;
+  showLoading('Đang xóa…');
   try{
     const res=await authFetch('/data/files/'+id,{method:'DELETE'});
     const data=await res.json();
-    if(!res.ok) throw new Error(data.detail||'XÃ³a tháº¥t báº¡i');
-    hideLoading();showAlert('success','ÄÃ£ xÃ³a <strong>'+data.deleted_rows+'</strong> dÃ²ng');
+    if(!res.ok) throw new Error(data.detail||'Xóa thất bại');
+    hideLoading();showAlert('success','Đã xóa <strong>'+data.deleted_rows+'</strong> dòng');
     loadFiles();fetchData();
   }catch(e){hideLoading();showAlert('error',e.message)}
 }
@@ -2210,7 +2210,7 @@ async function loadAuditLogs(){
   try{
     const res = await authFetch('/data/audit-logs');
     const data = await res.json();
-    if(!res.ok) throw new Error(data.detail || 'KhÃ´ng táº£i Ä‘Æ°á»£c lá»‹ch sá»­ chá»‰nh sá»­a');
+    if(!res.ok) throw new Error(data.detail || 'Không tải được lịch sử chỉnh sửa');
     const logs = data.logs || [];
     renderAuditLogs(logs);
   }catch(e){
@@ -2224,16 +2224,16 @@ function renderAuditLogs(logs){
   const replace = logs.filter(x=>x.action==='replace').length;
   const del = logs.filter(x=>x.action==='delete').length;
   el('auditSummary').innerHTML = [
-    {l:'Tá»•ng thao tÃ¡c',v:total},
-    {l:'Upload má»›i',v:upload},
-    {l:'Ghi Ä‘Ã¨',v:replace},
-    {l:'XÃ³a file',v:del}
+    {l:'Tổng thao tác',v:total},
+    {l:'Upload mới',v:upload},
+    {l:'Ghi đè',v:replace},
+    {l:'Xóa file',v:del}
   ].map(x=>'<div class="audit-card"><div class="label">'+x.l+'</div><div class="value">'+fmtN(x.v)+'</div></div>').join('');
   if(!logs.length){
-    el('tableAudit').innerHTML = '<div class="empty-state"><div class="icon"><i class="ti ti-history"></i></div><p>ChÆ°a cÃ³ lá»‹ch sá»­ chá»‰nh sá»­a</p></div>';
+    el('tableAudit').innerHTML = '<div class="empty-state"><div class="icon"><i class="ti ti-history"></i></div><p>Chưa có lịch sử chỉnh sửa</p></div>';
     return;
   }
-  mkTable('tableAudit', ['Thá»i gian','Thao tÃ¡c','File','Folder','NgÆ°á»i thá»±c hiá»‡n','DÃ²ng cÅ©','DÃ²ng má»›i','LÃ½ do','Pass'], logs.map(l=>[
+  mkTable('tableAudit', ['Thời gian','Thao tác','File','Folder','Người thực hiện','Dòng cũ','Dòng mới','Lý do','Pass'], logs.map(l=>[
     esc(l.created_at ? new Date(l.created_at).toLocaleString('vi-VN') : ''),
     auditActionBadge(l.action),
     esc(l.file_name),
@@ -2241,18 +2241,18 @@ function renderAuditLogs(logs){
     esc(l.user),
     fmtN(l.old_rows || 0),
     fmtN(l.new_rows || 0),
-    esc(l.reason || 'â€”'),
-    l.required_password ? '<span class="pill">CÃ³</span>' : '<span style="color:var(--text-muted)">KhÃ´ng</span>'
+    esc(l.reason || '—'),
+    l.required_password ? '<span class="pill">Có</span>' : '<span style="color:var(--text-muted)">Không</span>'
   ]));
 }
 function auditActionBadge(action){
   if(action==='upload') return '<span class="audit-action audit-upload">Upload</span>';
-  if(action==='replace') return '<span class="audit-action audit-replace">Ghi Ä‘Ã¨</span>';
-  if(action==='delete') return '<span class="audit-action audit-delete">XÃ³a</span>';
-  return '<span class="pill">'+esc(action||'â€”')+'</span>';
+  if(action==='replace') return '<span class="audit-action audit-replace">Ghi đè</span>';
+  if(action==='delete') return '<span class="audit-action audit-delete">Xóa</span>';
+  return '<span class="pill">'+esc(action||'—')+'</span>';
 }
 
-// â”€â”€ RECORD QUICK / USERS â”€â”€
+// ── RECORD QUICK / USERS ──
 function switchRecordSubtab(which, showMsg=true){
   ['quick','file'].forEach(k=>{
     const box=el('record'+(k==='quick'?'Quick':'File'));
@@ -2267,42 +2267,42 @@ function populateQuickClassOptions(){
   const s=el('quickClass'); if(!s) return;
   const current=s.value;
   const classes=[...new Set((APP.allRows||[]).map(r=>r.className).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'vi'));
-  s.innerHTML='<option value="">Chá»n lá»›p</option>'+classes.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
+  s.innerHTML='<option value="">Chọn lớp</option>'+classes.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
   s.value=current||'';
 }
-function clearQuickForm(){['quickStudent','quickIssue','quickNote'].forEach(id=>{if(el(id))el(id).value=''}); if(el('quickClass'))el('quickClass').value=''; if(el('quickType'))el('quickType').value='Vi pháº¡m'}
+function clearQuickForm(){['quickStudent','quickIssue','quickNote'].forEach(id=>{if(el(id))el(id).value=''}); if(el('quickClass'))el('quickClass').value=''; if(el('quickType'))el('quickType').value='Vi phạm'}
 function saveQuickRecord(){
-  showModal({title:'Nháº­p nhanh Ä‘ang chá» backend',icon:'i',body:'Giao diá»‡n nháº­p nhanh Ä‘Ã£ sáºµn sÃ ng. Äá»ƒ lÆ°u tháº­t tá»«ng dÃ²ng, cáº§n bá»• sung endpoint backend kiá»ƒu <strong>POST /records/manual</strong>. Logic upload file hiá»‡n táº¡i váº«n giá»¯ nguyÃªn.',confirmText:'ÄÃ£ hiá»ƒu',cancelText:'ÄÃ³ng'});
+  showModal({title:'Nhập nhanh đang chờ backend',icon:'i',body:'Giao diện nhập nhanh đã sẵn sàng. Để lưu thật từng dòng, cần bổ sung endpoint backend kiểu <strong>POST /records/manual</strong>. Logic upload file hiện tại vẫn giữ nguyên.',confirmText:'Đã hiểu',cancelText:'Đóng'});
 }
 const DEMO_USERS=[
-  {username:'admin',display:'admin',email:'admin@fpt.edu.vn',role:'admin',school:'FPT Háº£i PhÃ²ng',status:'Online'},
-  {username:'bgh',display:'Ban GiÃ¡m Hiá»‡u',email:'bgh@fpt.edu.vn',role:'bangiamhieu',school:'FPT Háº£i PhÃ²ng',status:'Online'},
-  {username:'quanly',display:'Quáº£n lÃ½ trÆ°á»ng',email:'quanly@fpt.edu.vn',role:'quanly',school:'FPT Háº£i PhÃ²ng',status:'Offline'},
-  {username:'giamthi',display:'Bá»™ pháº­n GiÃ¡m thá»‹',email:'giamthi@fpt.edu.vn',role:'giamthi',school:'FPT Háº£i PhÃ²ng',status:'Online'},
-  {username:'bantru',display:'Bá»™ pháº­n BÃ¡n trÃº',email:'bantru@fpt.edu.vn',role:'bantru',school:'FPT Háº£i PhÃ²ng',status:'Offline'}
+  {username:'admin',display:'admin',email:'admin@fpt.edu.vn',role:'admin',school:'FPT Hải Phòng',status:'Online'},
+  {username:'bgh',display:'Ban Giám Hiệu',email:'bgh@fpt.edu.vn',role:'bangiamhieu',school:'FPT Hải Phòng',status:'Online'},
+  {username:'quanly',display:'Quản lý trường',email:'quanly@fpt.edu.vn',role:'quanly',school:'FPT Hải Phòng',status:'Offline'},
+  {username:'giamthi',display:'Bộ phận Giám thị',email:'giamthi@fpt.edu.vn',role:'giamthi',school:'FPT Hải Phòng',status:'Online'},
+  {username:'bantru',display:'Bộ phận Bán trú',email:'bantru@fpt.edu.vn',role:'bantru',school:'FPT Hải Phòng',status:'Offline'}
 ];
-function roleLabel(r){return {admin:'Admin',bangiamhieu:'Ban GiÃ¡m Hiá»‡u',quanly:'Quáº£n lÃ½',giamthi:'GiÃ¡m thá»‹',bantru:'BÃ¡n trÃº'}[r]||r}
+function roleLabel(r){return {admin:'Admin',bangiamhieu:'Ban Giám Hiệu',quanly:'Quản lý',giamthi:'Giám thị',bantru:'Bán trú'}[r]||r}
 function renderUsersTable(){
   const q=(el('userSearch')?.value||'').toLowerCase();
   const rows=DEMO_USERS.filter(u=>(u.username+u.display+u.email+u.role).toLowerCase().includes(q));
   if(el('userStatTotal')) el('userStatTotal').textContent=DEMO_USERS.length;
-  mkTable('tableUsers',['NgÆ°á»i dÃ¹ng','Email','Vai trÃ²','TrÆ°á»ng','Tráº¡ng thÃ¡i','Thao tÃ¡c'],rows.map(u=>[
+  mkTable('tableUsers',['Người dùng','Email','Vai trò','Trường','Trạng thái','Thao tác'],rows.map(u=>[
     '<span class="user-avatar-sm">'+esc((u.display||u.username).slice(0,2).toUpperCase())+'</span><strong>'+esc(u.display)+'</strong><br><span style="color:var(--text-muted);font-size:12px">@'+esc(u.username)+'</span>',
     esc(u.email),'<span class="pill">'+esc(roleLabel(u.role))+'</span>',esc(u.school),
     u.status==='Online'?'<span class="text-green"><span class="status-dot on"></span>Online</span>':'<span style="color:var(--text-muted)"><span class="status-dot"></span>Offline</span>',
-    '<button class="btn btn-secondary btn-sm" onclick="showAlert(\'info\',\'Chá»©c nÄƒng sá»­a user cáº§n API backend.\')">Sá»­a</button>'
+    '<button class="btn btn-secondary btn-sm" onclick="showAlert(\'info\',\'Chức năng sửa user cần API backend.\')">Sửa</button>'
   ]));
 }
 function openCreateUserModal(){
-  showModal({title:'Táº¡o ngÆ°á»i dÃ¹ng',icon:'U',body:'UI táº¡o ngÆ°á»i dÃ¹ng Ä‘Ã£ sáºµn sÃ ng vá» máº·t thiáº¿t káº¿. Äá»ƒ táº¡o tÃ i khoáº£n tháº­t, cáº§n thÃªm endpoint backend <strong>POST /users</strong> rá»“i ná»‘i form nÃ y vÃ o API.',confirmText:'OK',cancelText:'ÄÃ³ng'});
+  showModal({title:'Tạo người dùng',icon:'U',body:'UI tạo người dùng đã sẵn sàng về mặt thiết kế. Để tạo tài khoản thật, cần thêm endpoint backend <strong>POST /users</strong> rồi nối form này vào API.',confirmText:'OK',cancelText:'Đóng'});
 }
 
-// â”€â”€ EXPORT â”€â”€
-function exportCSV(){if(!APP.allRows.length)return;const h=['NgÃ y','Tuáº§n','ThÃ¡ng','Cáº¥p','Khá»‘i','Lá»›p','MÃ£ HS','Há» tÃªn','Lá»—i','PhÃ¢n loáº¡i','Äiá»ƒm','Ghi chÃº','File'],k=['dateLabel','week','month','level','grade','className','studentId','studentName','issue','category','point','note','sourceFile'];const csv='\uFEFF'+[h.map(csvC).join(','),...APP.allRows.map(r=>k.map(x=>csvC(r[x])).join(','))].join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8;'}));a.download='thidua_chitiet.csv';a.click()}
-function exportViolation(){const list=APP.violationStudents||[];if(!list.length)return;const hd=['STT','Há» tÃªn','Lá»›p','Khá»‘i','Sá»‘ láº§n','Tá»•ng trá»«','Lá»—i chÃ­nh'];const rows=list.map((s,i)=>[(i+1),s.n,s.c,s.g,s.cnt,rd(s.m),[...s.iss].join('; ')]);const csv='\uFEFF'+[hd.map(csvC).join(','),...rows.map(r=>r.map(csvC).join(','))].join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8;'}));a.download='hocsinh_vipham.csv';a.click()}
+// ── EXPORT ──
+function exportCSV(){if(!APP.allRows.length)return;const h=['Ngày','Tuần','Tháng','Cấp','Khối','Lớp','Mã HS','Họ tên','Lỗi','Phân loại','Điểm','Ghi chú','File'],k=['dateLabel','week','month','level','grade','className','studentId','studentName','issue','category','point','note','sourceFile'];const csv='\uFEFF'+[h.map(csvC).join(','),...APP.allRows.map(r=>k.map(x=>csvC(r[x])).join(','))].join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8;'}));a.download='thidua_chitiet.csv';a.click()}
+function exportViolation(){const list=APP.violationStudents||[];if(!list.length)return;const hd=['STT','Họ tên','Lớp','Khối','Số lần','Tổng trừ','Lỗi chính'];const rows=list.map((s,i)=>[(i+1),s.n,s.c,s.g,s.cnt,rd(s.m),[...s.iss].join('; ')]);const csv='\uFEFF'+[hd.map(csvC).join(','),...rows.map(r=>r.map(csvC).join(','))].join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8;'}));a.download='hocsinh_vipham.csv';a.click()}
 function csvC(v){const s=String(v==null?'':v);return s.includes(',')||s.includes('"')||s.includes('\n')?'"'+s.replace(/"/g,'""')+'"':s}
 
-function showModal({title='XÃ¡c nháº­n', icon='!', body='', input=false, inputType='text', placeholder='', confirmText='OK', cancelText='Há»§y'}={}){
+function showModal({title='Xác nhận', icon='!', body='', input=false, inputType='text', placeholder='', confirmText='OK', cancelText='Hủy'}={}){
   return new Promise(resolve=>{
     el('modalIcon').innerHTML = iconHtml(icon);
     el('modalTitle').textContent = title;
@@ -2332,7 +2332,7 @@ function showModal({title='XÃ¡c nháº­n', icon='!', body='', input=false, in
   });
 }
 
-// â”€â”€ UTILITY â”€â”€
+// ── UTILITY ──
 function el(id){return document.getElementById(id)}
 function svgIcon(name){const cls=String(name||'circle').replace(/^ti-/,'');return '<svg class="svg-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">'+(ICON_PATHS[cls]||ICON_PATHS.circle)+'</svg>'}
 function replaceIconFonts(root=document){
@@ -2354,18 +2354,18 @@ function startIconObserver(){
   APP.iconObserver.observe(document.body,{childList:true,subtree:true});
 }
 function iconHtml(name){const m={'!':'alert-triangle',i:'info-circle',U:'user-plus'};return svgIcon(m[name]||name||'circle')}
-function fmtN(v){if(v==null||v==='')return'â€”';const n=typeof v==='number'?v:Number(v);return isNaN(n)?String(v):new Intl.NumberFormat('vi-VN').format(n)}
+function fmtN(v){if(v==null||v==='')return'—';const n=typeof v==='number'?v:Number(v);return isNaN(n)?String(v):new Intl.NumberFormat('vi-VN').format(n)}
 function colorN(v){const n=+v||0;return n>0?'<span class="text-green">'+fmtN(n)+'</span>':n<0?'<span class="text-red">'+fmtN(n)+'</span>':fmtN(0)}
 function rankB(r){return'<span class="rank-badge '+(r===1?'rank-1':r===2?'rank-2':r===3?'rank-3':'rank-n')+'">'+r+'</span>'}
-function shortT(s,m){s=String(s||'');return s.length>m?s.slice(0,m-1)+'â€¦':s}
+function shortT(s,m){s=String(s||'');return s.length>m?s.slice(0,m-1)+'…':s}
 function esc(v){return String(v==null?'':v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;')}
 function rd(n){return Math.round((+n||0)*10)/10}
-function showLoading(t){el('loadingText').textContent=t||'Äang táº£iâ€¦';el('loadingOverlay').classList.add('show')}
+function showLoading(t){el('loadingText').textContent=t||'Đang tải…';el('loadingOverlay').classList.add('show')}
 function hideLoading(){el('loadingOverlay').classList.remove('show')}
 function showAlert(type,msg){hideAlerts();const a=el('alert'+type.charAt(0).toUpperCase()+type.slice(1));if(a){a.innerHTML=msg;a.style.display='block';setTimeout(()=>{a.style.display='none'},5000)}}
 function hideAlerts(){['alertError','alertInfo','alertSuccess'].forEach(id=>{const a=el(id);if(a){a.style.display='none';a.innerHTML=''}})}
 
-// â”€â”€ DETAIL TABLE PAGINATION â”€â”€
+// ── DETAIL TABLE PAGINATION ──
 function renderDetailTablePage(page) {
   if (!APP.filteredDetailRows) return;
   APP.detailPage = page;
@@ -2385,17 +2385,17 @@ function renderDetailPagination(totalItems, currentPage, pageSize) {
     return;
   }
   const totalPages = Math.ceil(totalItems / pageSize);
-  const infoText = `Hiá»ƒn thá»‹ <strong>${fmtN(Math.min(totalItems, (currentPage - 1) * pageSize + 1))}</strong> - <strong>${fmtN(Math.min(totalItems, currentPage * pageSize))}</strong> trong tá»•ng sá»‘ <strong>${fmtN(totalItems)}</strong> dÃ²ng`;
+  const infoText = `Hiển thị <strong>${fmtN(Math.min(totalItems, (currentPage - 1) * pageSize + 1))}</strong> - <strong>${fmtN(Math.min(totalItems, currentPage * pageSize))}</strong> trong tổng số <strong>${fmtN(totalItems)}</strong> dòng`;
   const prevDisabled = currentPage === 1 ? 'disabled' : '';
   const nextDisabled = currentPage === totalPages ? 'disabled' : '';
   container.innerHTML = `
     <div style="font-size:13px;color:var(--text-muted)">${infoText}</div>
     <div style="display:flex;gap:6px;align-items:center">
-      <button class="btn btn-secondary btn-sm" onclick="renderDetailTablePage(1)" ${prevDisabled} title="Trang Ä‘áº§u">Äáº§u</button>
-      <button class="btn btn-secondary btn-sm" onclick="renderDetailTablePage(${currentPage - 1})" ${prevDisabled}><i class="ti ti-chevron-left"></i> TrÆ°á»›c</button>
+      <button class="btn btn-secondary btn-sm" onclick="renderDetailTablePage(1)" ${prevDisabled} title="Trang đầu">Đầu</button>
+      <button class="btn btn-secondary btn-sm" onclick="renderDetailTablePage(${currentPage - 1})" ${prevDisabled}><i class="ti ti-chevron-left"></i> Trước</button>
       <span style="font-size:13px;font-weight:600;padding:0 8px">Trang ${currentPage} / ${totalPages}</span>
       <button class="btn btn-secondary btn-sm" onclick="renderDetailTablePage(${currentPage + 1})" ${nextDisabled}>Sau <i class="ti ti-chevron-right"></i></button>
-      <button class="btn btn-secondary btn-sm" onclick="renderDetailTablePage(${totalPages})" ${nextDisabled} title="Trang cuá»‘i">Cuá»‘i</button>
+      <button class="btn btn-secondary btn-sm" onclick="renderDetailTablePage(${totalPages})" ${nextDisabled} title="Trang cuối">Cuối</button>
     </div>
   `;
 }
